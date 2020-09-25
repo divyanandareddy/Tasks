@@ -1,0 +1,38 @@
+header {
+	background-color: SlateBlue;
+	color: #ffffff;
+	text-align: center;
+
+}
+section {
+	
+	color: #ffffff;
+	display: -webkit-flex;
+    display: flex;
+}
+img {
+	height: 100px;
+	width: 100px;
+	display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 50%;
+ 
+}
+h3 {
+	color: black;
+}
+nav {
+	  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: grey;
+  padding: 10px;
+}
